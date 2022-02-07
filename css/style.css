@@ -1,0 +1,100 @@
+@font-face {
+    font-family:'SFNSText-Regular' ;
+    src: url(../fonts/SFNSText-Regular.otf);
+  }
+
+  @font-face {
+    font-family:'OpenSans-SemiBold' ;
+    src: url(../fonts/OpenSans-SemiBold.ttf);
+  }
+
+
+
+.h2{
+    font-family:'OpenSans-SemiBold' ;  
+    font-size: 30px;
+}
+
+.leding{
+    font-family:'OpenSans-SemiBold' ;  
+    font-size: 44px;
+}
+
+p{
+    font-size: 17px;
+    font-family:'SFNSText-Regular' ;
+}
+
+.login,
+ .image {
+     min-height: 100vh
+ }
+ 
+ .bg-image {
+     background-image: url('../img/login-bg.jpg');
+     background-size: cover;
+     color:#fff;
+}
+
+.login h2{
+    color:#757575;
+}
+
+.login p{
+    color:#BEBEBE;
+}
+
+form{
+    color:#BEBEBE;
+}
+
+.form-control {
+    border: 0;
+    height: 50px;
+    border-radius: 0;
+    border-bottom: 1px solid #ebebeb;
+  }
+  .form-contro:focus {
+    border-bottom: 1px solid #4A90E2;
+  }
+  
+  
+  small{
+	  font-size: 15px;
+  }
+
+
+
+.circle-design{
+    height: 13px;
+    width: 13px;
+    background-color:#4A90E2;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+
+.btn-sign-up{
+    background-color: #4A90E2;
+    color:#fff;
+    font-family:'OpenSans-SemiBold';
+}
+
+.logo{
+    width: 120px;
+}
+
+.btn-login{
+    border:solid 1px #fff;
+    color:#fff; 
+    background-color: transparent !important;
+    font-family:'OpenSans-SemiBold' ;
+}
+
+.form-text{
+    margin-top: 70px;
+}
+
+
+
